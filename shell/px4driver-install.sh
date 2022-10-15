@@ -18,8 +18,9 @@ cd ../
 cp -a ./ /usr/src/px4_drv-0.2.1
 dkms add px4_drv/0.2.1
 dkms install px4_drv/0.2.1
-echo "Driver install complete!"
+echo "Driver install done!"
+
 echo "Driver check!"
 lsmod | grep -e ^px4_drv
 ls-la /dev/px4video*
-echo "Driver install done!"
+echo "Driver check done!"
