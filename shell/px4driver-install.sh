@@ -19,5 +19,5 @@ sudo cp -a ./ /usr/src/px4_drv-0.2.1
 sudo dkms add px4_drv/0.2.1
 sudo dkms install px4_drv/0.2.1
 lsmod | grep -e ^px4_drv
-ls-la /dev/px4video*
+ls -la /dev/ | grep px4video
 echo "Driver install done!"
