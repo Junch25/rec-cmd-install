@@ -18,7 +18,7 @@ $ bash shell/recpt1-install.sh
 | Name | URL |
 | ---- | ---- |
 | px4_drv | https://github.com/nns779/px4_drv |
-| libarib25 | https://github.com/stz2012/libarib25.git |
+| libarib25 | https://github.com/stz2012/libarib25 |
 | recpt1 | https://github.com/stz2012/recpt1 |
 
 ## 動作について
