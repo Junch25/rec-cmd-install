@@ -17,4 +17,4 @@ cd recpt1/recpt1 || exit
 ./configure --enable-b25 
 make
 sudo make install
-echo "libarib25 and recpt1 install done!"
+echo "done!"

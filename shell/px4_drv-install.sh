@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # px4 driver install
-echo "Driver install start!"
+echo "PX4 Driver install start!"
 mkdir ~/git
 cd ~/git || exit
 git clone https://github.com/nns779/px4_drv.git && cd px4_drv/fwtool || exit
@@ -20,4 +20,4 @@ sudo dkms add px4_drv/0.2.1
 sudo dkms install px4_drv/0.2.1
 lsmod | grep -e ^px4_drv
 ls -la /dev/ | grep px4video
-echo "Driver install done!"
+echo "done!"
