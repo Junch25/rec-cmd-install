@@ -4,12 +4,17 @@
 ## Usage / 使用方法
 PLEX製のチューナーのドライバーを自動インストール
 ```(bash)
-$ bash shell/px4driver-install.sh
+bash shell/px4_drv-install.sh
+```
+
+PX-Q1UDのドライバーを自動インストール
+```(bash)
+bash shell/pxq1ud-install.sh
 ```
 
 libarib25とrecpt1を自動インストール
 ```(bash)
-$ bash shell/recpt1-install.sh
+bash shell/recpt1-install.sh
 ```
 
 ## スクリプトについて
