@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir ~/driver
-cd ~/driver || exit
+mkdir -p ~/git/driver
+cd ~/git/driver || exit
 echo 'PX-Q1UD Driver install start!'
 wget http://plex-net.co.jp/plex/px-s1ud/PX-S1UD_driver_Ver.1.0.1.zip
 unzip PX-S1UD_driver_Ver.1.0.1.zip
