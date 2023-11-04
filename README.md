@@ -4,21 +4,22 @@
 ## Usage / 使用方法
 ライブラリインストール
 ```(bash)
-sudo apt-get install cmake g++ git curl samba unzip gcc make
+$ sudo apt-get install -y cmake g++ git curl samba unzip gcc make autoconf automake libpcsclite-dev pcscd pcsc-tools libccid
+
 ```
 PLEX製のチューナーのドライバーを自動インストール
 ```(bash)
-bash shell/px4_drv-install.sh
+$ bash shell/px4_drv-install.sh
 ```
 
 PX-Q1UDのドライバーを自動インストール
 ```(bash)
-bash shell/pxq1ud-install.sh
+$ bash shell/pxq1ud-install.sh
 ```
 
 libarib25とrecpt1を自動インストール
 ```(bash)
-bash shell/recpt1-install.sh
+$ bash shell/recpt1-install.sh
 ```
 
 ## スクリプトについて
