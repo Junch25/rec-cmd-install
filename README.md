@@ -2,6 +2,10 @@
 録画コマンド・ドライバーインストールスクリプト
 
 ## Usage / 使用方法
+ライブラリインストール
+```(bash)
+sudo apt-get install cmake g++ git curl samba unzip gcc make
+```
 PLEX製のチューナーのドライバーを自動インストール
 ```(bash)
 bash shell/px4_drv-install.sh
