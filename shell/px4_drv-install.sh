@@ -4,7 +4,7 @@
 echo "PX4 Driver install start!"
 mkdir ~/git
 cd ~/git || exit
-git clone https://github.com/nns779/px4_drv.git && cd px4_drv/fwtool || exit
+git clone https://github.com/Junch25/px4_drv.git && cd px4_drv/fwtool || exit
 make
 wget http://plex-net.co.jp/plex/pxw3u4/pxw3u4_BDA_ver1x64.zip -O pxw3u4_BDA_ver1x64.zip
 unzip -oj pxw3u4_BDA_ver1x64.zip pxw3u4_BDA_ver1x64/PXW3U4.sys
