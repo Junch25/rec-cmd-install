@@ -4,7 +4,7 @@
 ## Usage / 使用方法
 ライブラリインストール
 ```(bash)
-sudo apt-get install -y cmake g++ git curl samba unzip gcc make autoconf automake libpcsclite-dev pcscd pcsc-tools libccid
+sudo apt-get install -y cmake g++ git curl unzip gcc make autoconf automake libpcsclite-dev pcscd pcsc-tools libccid
 
 ```
 PLEX製のチューナーのドライバーを自動インストール
