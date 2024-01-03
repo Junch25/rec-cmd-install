@@ -17,18 +17,19 @@ PX-Q1UDのドライバーを自動インストール
 bash shell/pxq1ud-install.sh
 ```
 
-libarib25とrecpt1を自動インストール
+libaribb25とrecpt1を自動インストール
 ```(bash)
 bash shell/recpt1-install.sh
 ```
 
 ## スクリプトについて
-以下3つをインストールを自動インストールできるShellScriptを作りました。
+以下3つをインストールを自動インストールできるShellScriptを作りました。  
+※インストールスクリプトのソースですが、Forkしたものを利用しています。
 
 | Name | URL |
 | ---- | ---- |
 | px4_drv | https://github.com/nns779/px4_drv |
-| libarib25 | https://github.com/stz2012/libarib25 |
+| libaribb25 | https://github.com/tsukumijima/libaribb25 |
 | recpt1 | https://github.com/stz2012/recpt1 |
 
 ## 動作について
